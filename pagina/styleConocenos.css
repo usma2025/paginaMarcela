@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital@1&family=Roboto+Mono:wght@100&display=swap');
+.main__mision, .main__objective1{
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+}
+.main__mision img, .main__objective1 img{
+    width: 1000px;
+    height: 400px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.main__mision--text h1, .main__objective1--text h1{
+    margin: 20px;
+    font-size: 4rem;
+    font-family: 'Poltawski Nowy', serif;
+    text-align: right;
+}
+.main__mision--text p, .main__objective1--text p{
+    font-size: 2rem;
+    font-family: 'Poltawski Nowy', serif;
+    text-align: center;
+}
+
+.main__vision, .main__objective2{
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+}
+.main__vision img, .main__objective2 img{
+    width: 1000px;
+    height: 400px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.main__vision--text h1, .main__objective2--text h1{
+    margin: 20px;
+    font-size: 4rem;
+    font-family: 'Poltawski Nowy', serif;
+    text-align: left;
+}
+.main__vision--text p, .main__objective2--text p{
+    font-size: 2rem;
+    font-family: 'Poltawski Nowy', serif;
+    text-align: center;
+}

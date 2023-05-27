@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital@1&family=Roboto+Mono:wght@100&display=swap');
+.main__calculadora, .main__calculadora2{
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px; 
+}
+.main_calculadora--form--section{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    
+    
+}
+.main__calculadora--form--number label, .main_calculadora2--form--input label{
+    color: black;
+}
+.main__calculadora--form--number input, .main_calculadora2--form--input input{
+    color: black;
+    width: 300px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.main__calculadora--form--submit{
+    display: flex;
+    justify-content: center;
+}
+.main__calculadora--form--submit button{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Poltawski Nowy', serif;
+}
+.main__calculadora--result{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+.main__calculadora--result{
+    
+    font-size: 1.5rem;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+/* Calculadora 2 */
+.main__calculadora2{
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px; 
+}
+.main_calculadora2--form--input label{
+    color: black;
+    font-size: 2rem;
+}
+.main_calculadora2--form--input input{
+    font-size: 2rem;
+    color: black;
+    width: 300px;
+    height: 3rem;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.main_calculadora2--form--input label{
+    color: black;
+}
+.main_calculadora2--form--input input{
+    color: black;
+    width: 300px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.main_calculadora2--form{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.main__calculadora2--result{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main__calculadora2--result{
+    
+    font-size: 2.5rem;
+    font-family: 'Poltawski Nowy', serif;
+}
+.main_calculadora2--form--input button{
+    width: 200px;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Poltawski Nowy', serif;
+    background-color: greenyellow;
+    border-radius: 8px;
+    color: black;
+    border: none;
+}
+/* Estilos calculadora 2 */
+.main__section{
+    margin: 30px;
+    
+    padding: 20px;
+    border: 1px solid black;
+}
+.main__article{
+    display: flex;
+    
+    justify-content: center;
+
+}
+.main__section h1{
+    font-size: 2.5rem;
+    font-family: 'Poltawski Nowy', serif;
+    
+}
+.main_div{
+    display: flex;
+    justify-content: end;
+}
+.main_div button{
+    width: 300px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Poltawski Nowy', serif;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 8px;
+}
+/* Calculadora 3 */
+.main__calculadora3{
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px; 
+}
+.main_calculadora3--form--input label{
+    color: black;
+    font-size: 2rem;
+}
+.main_calculadora3--form--input input{
+    font-size: 2rem;
+    color: black;
+    width: 300px;
+    height: 3rem;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.main_calculadora3--form--input label{
+    color: black;
+}
+.main_calculadora3--form--input input{
+    color: black;
+    width: 300px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.main_calculadora3--form{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.main__calculadora3--result{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main__calculadora3--result{
+    
+    font-size: 2.5rem;
+    font-family: 'Poltawski Nowy', serif;
+}
+.main_calculadora3--form--input button{
+    width: 200px;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Poltawski Nowy', serif;
+    background-color: greenyellow;
+    border-radius: 8px;
+    color: black;
+    border: none;
+}

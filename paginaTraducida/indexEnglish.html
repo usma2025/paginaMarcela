@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="../img/logo.jpeg" alt="" class="header__img--logo">
+        <h1 class="header__title">Bacteria quantification</h1>
+        <div class="header__menu">
+            <i class="bi bi-list header__menu--i"></i>
+            <ul class="header__menu--content right">
+                <a href="./KnowUs.html"><li>Know us</li></a>
+                <a href="./concepts.html"><li>Concepts</li></a>
+                <a href="./calculator.php"><li>Calculator</li></a>
+                <a href="../index.html"><li>Translate</li></a>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <nav class="nav-carousel">
+            <section class="main__sectionCarousel">
+                <article class="main__sectionCarousel--imgs">
+                    <img class="main__sectionCarousel--img" src="../img/portada.jpeg" alt="">
+                </article>
+            </section>
+        </nav>
+        <nav class="nav-sections">
+            <a href="./KnowUs.html">
+                <article class="nav-sections__box">
+                    <img src="../img/conocenos.jpeg" alt="">
+                    <h1>Know us <i class="bi bi-people nav-sections__box-i"></i></h1>
+                </article>
+            </a>
+            <a href="./concepts.html">
+                <article class="nav-sections__box">
+                    <img src="../img/conceptos.jpeg" alt="">
+                    <h1>Concepts <i class="bi bi-book nav-sections__box-i"></i></h1>
+                </article>
+            </a>
+            <a href="./calculator.php">
+                <article class="nav-sections__box">
+                    <img src="../img/calculadora.jpeg" alt="">
+                    <h1>Calculator <i class="bi bi-calculator nav-sections__box-i"></i></h1>
+                </article>
+            </a>
+            <a href="../index.html">
+                <article class="nav-sections__box">
+                    <!-- Traducir -->
+                    <img src="../img/traducir.jpeg" alt="">
+                    <h1>Translate <i class="bi bi-translate nav-sections__box-i"></i></h1>
+                </article>
+            </a>
+        </nav>       
+    </main>
+    <footer class="footer">
+        <section class="footer-credits">
+            <h1>Email: amzaacg@udistrital.edu.co</h1>
+            <h1>Name: Aida Marcela Zaac Gonzalez</h1>
+            <h2>Cell: +57 3209297377</h1>
+        </section>
+        <section class="footer-contactMe">
+            <h1>Contact us</h1>
+            <form action="">
+                <div class="fullName">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                    <label for="lastName">Last name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="cellphone">
+                    <label for="cellphone">Cellphone</label>
+                    <input type="number" name="cellphone" id="cellphone">
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Send" >
+                </div>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
